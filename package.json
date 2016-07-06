@@ -1,0 +1,19 @@
+{
+  "name": "familytree",
+  "version": "0.0.1",
+  "description": "family tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pisceswin/familytree.git"
+  },
+  "author": "pisces",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pisceswin/familytree/issues"
+  },
+  "homepage": "https://github.com/pisceswin/familytree#readme"
+}
