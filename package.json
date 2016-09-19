@@ -4,7 +4,7 @@
   "description": "family tree",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/ava"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/pisceswin/familytree/issues"
   },
-  "homepage": "https://github.com/pisceswin/familytree#readme"
+  "homepage": "https://github.com/pisceswin/familytree#readme",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
 }
